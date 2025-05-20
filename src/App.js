@@ -1,23 +1,23 @@
-// import { useEffect } from 'react';
-// import './App.css';
-// const tg = window.Telegram.WebApp;
+import { useEffect } from 'react';
+import './App.css';
+const tg = window.Telegram.WebApp;
 
-// function App() {
+function App() {
 
-//   useEffect(() => {
-//     tg.ready();
-//   })
+  useEffect(() => {
+    tg.ready();
+  })
 
-//   const onClose = () => {
-//     tg.close();
-//   }
+  const onClose = () => {
+    tg.close();
+  }
 
-//   return (
-//     <div className="App">
-//         text 123 312
-//         <button onClick={onClose}>Сделать заказ</button>
-//     </div>
-//   );
-// }
+  return (
+    <div className="App">
+        text 123 312
+        <button onClick={onClose}>Сделать заказ</button>
+    </div>
+  );
+}
 
-// export default App;
+export default App;
